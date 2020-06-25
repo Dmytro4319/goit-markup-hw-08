@@ -1,0 +1,55 @@
+.logo{
+    width: 45px;
+    height: 50px;
+    margin: auto;
+  }
+  .logoo{
+    width: 40px;
+    height: 52px;
+    margin: auto;
+  }
+  .logooo{
+    width: 41px;
+    height: 43px;
+    margin: auto;
+  }
+  .logoooo{
+    width: 80px;
+    height: 42px;
+    margin: auto;
+  }
+  .logooooo{
+    width: 59px;
+    height: 47px;
+    margin: auto;
+  }
+  .logoooooo{
+    width: 88px;
+    height: 45px;
+    margin: auto;
+  }
+  .client {
+    display: flex;
+    width: 170px;
+    height: 90px;
+    background-color: #f5f4fa;
+    margin-right: 30px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+      
+  &:last-child {
+    margin-right: 0; 
+  }
+ 
+  &:hover, &:focus{
+    border: 1px solid #2196F3;
+    transition-duration:250ms;
+  }}
+  .ho
+  
+  {&:hover, &:focus{
+    --color3:#2196F3;
+    cursor: pointer;
+    
+    transition-duration:250ms;
+  }}

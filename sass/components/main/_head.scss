@@ -1,0 +1,151 @@
+// $colorblu: #2196f3;
+// $colorwhite: #ffffff;
+// $colorblack: #212121;
+// $colortext: #757575;
+// $colormain: #e5e5e5;
+// $colorsecond: #f5f4fa;
+// $texmain: Raleway;
+// $texall: Roboto;
+.logo-link {
+  font-family: $texmain;
+  font-style: normal;
+  color: $colorblack;
+  font-weight: 700;
+  font-size: 26px; 
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  margin-right: 86px;
+}
+.logo-lnk {
+  font-family: $texmain;
+  font-style: normal;
+  color: $colorblack;
+  font-weight: 700;
+  font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 0.03em;
+  text-decoration: none;
+  margin-right: 86px;
+}
+.web {
+  color: $colorblu;
+}
+.nav-links {
+.links {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: $colorblack;
+  &:hover, 
+  &:focus {
+    color: $colorblu;
+    transition-duration:250ms;
+  }
+}
+  
+  .emeil {
+  color: $colortext;}
+  .phon {
+    color: $colortext;}
+    .current {
+      color: $colorblu;}
+}
+
+.item {
+  text-decoration: none;
+  position: relative;
+  &:not(:last-child) {
+margin: 0;
+padding: 0;
+margin-right: 50px;
+padding-bottom: 32px;
+padding-top: 32px;}}
+
+
+.decore{
+  display: inline-block;
+  height: 12px ;
+  width: 16px;
+  align-items: center;
+ 
+  margin-bottom: -4px;
+  margin-right: 10px;
+  
+}
+.decor{
+  display: inline-block;
+  height: 15px ;
+  width: 10px;
+  margin-right: 10px;
+  
+  align-items: center;
+  margin-bottom: -4px;
+}
+.how{
+ &:hover, &:focus{
+  --color5:#2196F3;
+  cursor: pointer;
+  transition-duration:250ms; }
+}
+
+.hey{
+  height: 100%;
+}
+.polosa{
+
+&::after{
+  display: block;
+  content: '';
+  width: 100%;
+  background:$colorblu;
+border-radius: 2px;
+  height: 5px;
+  position: absolute;
+  bottom: 0px;
+  left:0;
+}}
+.itema{
+ 
+  margin-right: 30px;
+}
+
+
+.head {
+  display: inline-block;
+  display: flex; 
+  /* width: 100%; */
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $colorwhite;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 80px;
+}
+
+.nav {
+  display: block;
+  display: flex;
+  align-items: center;
+} 
+
+.nav-links {
+  display: block;
+  display: flex;
+  align-items: center;
+ 
+}
+.list {
+  display: block;
+  display: flex;
+  flex: end;
+  margin-left: auto;
+}
+.mar{
+  margin: 0;
+  margin-left: 30px;
+}

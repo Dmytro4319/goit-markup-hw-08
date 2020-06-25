@@ -1,0 +1,49 @@
+.psp{
+    padding-top: 94px;
+    padding-bottom:94px;
+    border-top: 1px solid #ECECEC;
+  }
+  .knopka {
+    display: block;
+    text-align: center;
+    
+    
+    
+  }
+  .knopk {
+    
+    height: 38px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px; 
+    background: #f5f4fa;
+    border-radius: 4px;
+    text-align: center;
+    /* letter-spacing: 0.03em; */
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-right: 8px;
+    color: #212121;
+     &:last-child {
+    margin-right: 0;
+  }
+  }
+  .bi{
+
+    &:hover, &:focus {
+       color: $colorwhite;
+       background-color: $colorblu;
+       cursor: pointer;
+       transition-duration:250ms;
+     } }
+     button{
+        padding: 0;
+        border: none;
+        font-family: $texmain;
+        background-color: transparent;
+       
+        cursor: pointer;
+        /* font-weight: 500;
+      font-size: 16px;
+      line-height: 26px; */
+      }

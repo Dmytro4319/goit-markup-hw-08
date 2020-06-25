@@ -1,0 +1,17 @@
+body {
+    background-color: $colorwhite;
+    font-family: $texall;
+    color: $colortext;
+    font-size: 14px;
+    line-height: 1.71;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.03em;
+    /* padding-left: 4px;
+    padding-right: 4px; */
+  }
+  .left{
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 0;
+  }
