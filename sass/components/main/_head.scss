@@ -7,6 +7,7 @@
 // $texmain: Raleway;
 // $texall: Roboto;
 .logo-link {
+  align-items: center;
   font-family: $texmain;
   font-style: normal;
   color: $colorblack;
@@ -33,6 +34,7 @@ letter-spacing: 0.03em;
   color: $colorblu;
 }
 .nav-links {
+  display: none;
 .links {
   font-weight: 500;
   font-size: 14px;
@@ -67,7 +69,7 @@ padding-top: 32px;}}
 
 
 .decore{
-  display: inline-block;
+  // display: inline-block;
   height: 12px ;
   width: 16px;
   align-items: center;
@@ -77,7 +79,7 @@ padding-top: 32px;}}
   
 }
 .decor{
-  display: inline-block;
+  // display: inline-block;
   height: 15px ;
   width: 10px;
   margin-right: 10px;
@@ -98,7 +100,7 @@ padding-top: 32px;}}
 .polosa{
 
 &::after{
-  display: block;
+  // display: block;
   content: '';
   width: 100%;
   background:$colorblu;
@@ -115,8 +117,8 @@ border-radius: 2px;
 
 
 .head {
-  display: inline-block;
-  display: flex; 
+  // display: inline-block;
+  // display: flex; 
   /* width: 100%; */
   width: 1200px;
   margin-left: auto;
@@ -133,19 +135,19 @@ border-radius: 2px;
   align-items: center;
 } 
 
-.nav-links {
-  display: block;
-  display: flex;
-  align-items: center;
+// .nav-links {
+//   display: block;
+//   display: flex;
+//   align-items: center;
  
-}
-.list {
-  display: block;
-  display: flex;
-  flex: end;
-  margin-left: auto;
-}
-.mar{
-  margin: 0;
-  margin-left: 30px;
-}
+// }
+// .list {
+//   display: block;
+//   display: flex;
+//   flex: end;
+//   margin-left: auto;
+// }
+// .mar{
+//   margin: 0;
+//   margin-left: 30px;
+// }

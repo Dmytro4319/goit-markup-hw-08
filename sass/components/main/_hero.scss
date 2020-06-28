@@ -1,6 +1,6 @@
 .container {
-    display: flex;
-    flex-direction: row;
+    // display: flex;
+    // flex-direction: row;
     text-align: center;
     align-items: center;
     width: 1200px;
@@ -24,8 +24,8 @@
   
   .bk {
     background: $colorsecond;
-    display: flex;
-    flex-direction: row;
+    // display: flex;
+    // flex-direction: row;
     text-align: center;
     align-items: center;
      /* width: 1200px; */
@@ -76,7 +76,7 @@
   }
   }
   .tit {
-    display: block;
+    // display: block;
   
     color: $colorwhite;
     font-weight: 900;

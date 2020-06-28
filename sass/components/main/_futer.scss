@@ -1,7 +1,7 @@
 .fly{ 
     
-    display: inline-flex;
-    justify-content: flex-start;
+    // display: inline-flex;
+    // justify-content: flex-start;
     text-align: center;
     font-weight: 900;
     font-size: 16px;
@@ -24,7 +24,7 @@ border-radius: 4px;
   
   .fly{
     &::after{
-    display: block;
+    // display: block;
   content: '';
   width: 24px;
   height: 24px;
@@ -38,7 +38,7 @@ border-radius: 4px;
 }}
 .socia {
   --color3:#ffffff;
-  display: flex;
+  // display: flex;
   margin-right: 10px;
   padding-inline-start: 0;
   width: 44px;
@@ -63,7 +63,7 @@ footer {
   background-color: $colorblack;
 }
 .foot {
-  display: flex;
+  // display: flex;
   width: 100%;
  
   padding-bottom: 28px;
@@ -87,14 +87,14 @@ margin-bottom: 21px;
 
 .one {
   margin-right: 69px;
-  justify-content: start;
+  // justify-content: start;
 }
 .onece{
   margin-right: 94px;
   padding: 0;}
-  .two {
-    display: flex;
-  }
+  // .two {
+  //   // display: flex;
+  // }
   
   .stud {
     color: $colorwhite;
